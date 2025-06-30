@@ -11,7 +11,7 @@ import { Hero9 } from "@/components/dev/hero/Hero9";
 
 const handleSignUp = async (email: string) => {
   // e.g. await fetch('/api/subscribe', { method: 'POST', body: JSON.stringify({ email }) })
-  console.log("Sign up: ", email);
+  console.log("Sign up:", email);
 };
 
 export default function ComponentsPage() {
