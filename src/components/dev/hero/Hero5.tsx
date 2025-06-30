@@ -1,6 +1,5 @@
-// src/components/dev/Hero5.tsx
 "use client";
-import React, { useState, FormEvent } from "react";
+import React from "react";
 import Image from "next/image";
 
 export interface Hero5Props {
