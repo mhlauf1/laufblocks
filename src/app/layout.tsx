@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Lauf Block",
-  description: "React code & paste components",
+  description: "React copy & paste components",
 };
 
 export default function RootLayout({
