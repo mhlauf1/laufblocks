@@ -1,4 +1,3 @@
-// src/components/dev/Navbar1.tsx
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -21,8 +20,7 @@ export function Navbar1({
   logoAlt = "Logo",
   links = [
     { label: "Home", href: "/" },
-    { label: "Features", href: "/#features" },
-    { label: "Pricing", href: "/pricing" },
+    { label: "Components", href: "/components" },
     { label: "Docs", href: "/docs" },
   ],
   primaryCtaText = "Get Started",

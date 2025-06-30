@@ -21,9 +21,9 @@ export function Hero1({
   blurDataURL = "/hero1-thumb.jpg",
 }: Hero1Props) {
   return (
-    <section className="max-w-7xl mx-auto px-4 py-12 lg:py-24 flex flex-col-reverse lg:flex-row items-center gap-8">
+    <section className="max-w-7xl mx-auto px-4 sm:px-8 py-12 lg:py-24 flex flex-col md:flex-row items-center gap-8">
       {/* Text */}
-      <div className="lg:w-1/2 space-y-4">
+      <div className="md:w-1/2 space-y-4">
         <h1 className="text-4xl lg:text-5xl font-bold leading-tight tracking-tight">
           {title}
         </h1>
@@ -37,7 +37,7 @@ export function Hero1({
       </div>
 
       {/* Image */}
-      <div className="lg:w-1/2 w-full">
+      <div className="md:w-1/2 w-full">
         <Image
           src={imageSrc}
           alt={imageAlt}
